@@ -1,0 +1,83 @@
+
+@media(min-device-width:320px) and (max-device-width:415px)
+{
+
+	#todcard{
+
+		top:10vw;
+
+	}
+	.fa-plus{
+		font-size:5vw;
+	}
+
+	.fa-refresh{
+		font-size:5vw;
+	}
+
+	center >h4{
+		font-size:6vw;
+	}
+	.list-group-item >span{
+		font-size:5vw;
+	}
+	.list-group-item{
+		border:2px solid grey;
+	}
+	.list-group{
+		position:relative;
+		border:px solid grey;
+	}
+}
+
+.editable-border{
+	border:2px solid orange;
+
+}
+
+
+#todcard > .card-body li span{
+	padding-left:12px;
+	padding-top:4px;
+	padding-bottom:4px;
+}
+.fa-trash,.fa-edit,.fa-refresh{
+	cursor:pointer;
+	font-size:25px;
+}
+
+.fa-plus{
+	font-size:50px;
+}
+.fa-edit,.fa-refresh{
+	padding-right: 30px;
+  	padding-top: 3px
+}
+#todcard .form-group{
+	display: flex !important;;
+	flex-direction:column;
+
+}
+
+#todcard > .card-body{
+	overflow-y:auto;
+	max-height:350px;
+}
+.adjust-row{
+	display:flex;
+	justify-content:center;
+}
+
+	#todcard li span{
+		text-overflow: ellipsis;
+		overflow:hidden;
+		white-space: nowrap;
+	}
+@media only screen and (max-width:450px){
+	.fa-plus{
+		font-size:40px !important;
+	}
+
+
+}
+
